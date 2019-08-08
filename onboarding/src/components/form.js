@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Form as Formik, Field, withFormik } from 'formik'
-import { Segment, Form, Checkbox, Button } from 'semantic-ui-react'
+import { Form, Segment} from 'semantic-ui-react'
 
 import Axios from 'axios';
 import CardContent from './card'
@@ -46,7 +46,7 @@ const FormikForm = withFormik({
             name: values.name || '',
             email: values.email || '',
             password: values.password || '',
-            checkbox: values.checkbox
+            Checkbox: values.Checkbox
         }
     },
     handleSubmit(values, { setStatus }) {

@@ -1,11 +1,10 @@
 import React from 'react';
-import './App.css';
 import Form from './components/form'
 
 
 function App() {
   return (
-    <div>
+    <div class = "app">
    <h1>Create an Account</h1>
     <Form />
     </div>
